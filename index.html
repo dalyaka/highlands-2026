@@ -355,14 +355,14 @@ dl, dd { margin: 0; }
       <p>Если погода нестабильна, выбираем маршрут не по календарю, а по высоте облаков и ветру. Горные дни можно переставлять местами.</p>
     </div>
     <div class="chooser" role="tablist" aria-label="Варианты маршрута">
-<button type="button" class="vcard" role="tab" id="tab-radial" aria-controls="radial" aria-selected="false" data-variant="radial">
+<button type="button" class="vcard" role="tab" id="tab-radial" aria-controls="radial" aria-selected="true" data-variant="radial">
   <span class="vc-num">Вариант 1</span>
   <span class="vc-name">База в Inverness</span>
   <span class="vc-blurb">Минимум логистики: один отель и пять очень разных выездов. Лучший вариант, если не хочется паковаться каждый день.</span>
   <span class="vc-stats"><span><small>дней</small>5</span><span><small>пешком</small>≈40–50 км</span><span><small>за рулём</small>≈11–14 ч</span></span>
   <span class="vc-simple"><span class="meter" aria-label="простота логистики: 5 из 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span><small>простота логистики · все в Inverness</small></span>
 </button>
-<button type="button" class="vcard" role="tab" id="tab-northwest" aria-controls="northwest" aria-selected="true" data-variant="northwest">
+<button type="button" class="vcard" role="tab" id="tab-northwest" aria-controls="northwest" aria-selected="false" data-variant="northwest">
   <span class="vc-num">Вариант 2</span>
   <span class="vc-name">Torridon + Assynt</span>
   <span class="vc-blurb">Самая высокая концентрация пейзажей «вау»: торридонский песчаник, озёра, Stac Pollaidh и белые пляжи.</span>
@@ -379,11 +379,11 @@ dl, dd { margin: 0; }
   </section>
 </div>
 
-<nav class="daynav" aria-label="Варианты и дни"><div class="wrap"><div class="navrow"><ol class="vpills"><li><a href="#radial" class="vpill" data-variant="radial">Inverness</a></li><li><a href="#northwest" class="vpill" data-variant="northwest" aria-current=true>Северо-запад</a></li><li><a href="#grand" class="vpill" data-variant="grand">Большой круг</a></li></ol><span class="navsep" aria-hidden="true"></span><ol class="dchips" data-for="radial" hidden><li><a href="#radial-1"><span class="n">1</span><span class="t">Loch Ness</span></a></li><li><a href="#radial-2"><span class="n">2</span><span class="t">Sgòr Gaoith</span></a></li><li><a href="#radial-3"><span class="n">3</span><span class="t">Loch Clair</span></a></li><li><a href="#radial-4"><span class="n">4</span><span class="t">Glen Affric</span></a></li><li><a href="#radial-5"><span class="n">5</span><span class="t">Beinn Eighe</span></a></li></ol><ol class="dchips" data-for="northwest"><li><a href="#northwest-14"><span class="n">14</span><span class="t">Glen Affric и водопады</span></a></li><li><a href="#northwest-15"><span class="n">15</span><span class="t">Triple Buttress</span></a></li><li><a href="#northwest-16"><span class="n">16</span><span class="t">Пляжи и ущелье</span></a></li><li><a href="#northwest-17"><span class="n">17</span><span class="t">Stac Pollaidh и Achmelvich</span></a></li><li><a href="#northwest-18"><span class="n">18</span><span class="t">Quinag и обратно</span></a></li></ol><ol class="dchips" data-for="grand" hidden><li><a href="#grand-14"><span class="n">14</span><span class="t">Glen Affric</span></a></li><li><a href="#grand-15"><span class="n">15</span><span class="t">Triple Buttress</span></a></li><li><a href="#grand-16"><span class="n">16</span><span class="t">Stac Pollaidh</span></a></li><li><a href="#grand-17"><span class="n">17</span><span class="t">Побережье → Aviemore</span></a></li><li><a href="#grand-18"><span class="n">18</span><span class="t">Sgòr Gaoith</span></a></li></ol></div></div></nav>
+<nav class="daynav" aria-label="Варианты и дни"><div class="wrap"><div class="navrow"><ol class="vpills"><li><a href="#radial" class="vpill" data-variant="radial" aria-current=true>Inverness</a></li><li><a href="#northwest" class="vpill" data-variant="northwest">Северо-запад</a></li><li><a href="#grand" class="vpill" data-variant="grand">Большой круг</a></li></ol><span class="navsep" aria-hidden="true"></span><ol class="dchips" data-for="radial"><li><a href="#radial-1"><span class="n">1</span><span class="t">Loch Ness</span></a></li><li><a href="#radial-2"><span class="n">2</span><span class="t">Sgòr Gaoith</span></a></li><li><a href="#radial-3"><span class="n">3</span><span class="t">Loch Clair</span></a></li><li><a href="#radial-4"><span class="n">4</span><span class="t">Glen Affric</span></a></li><li><a href="#radial-5"><span class="n">5</span><span class="t">Beinn Eighe</span></a></li></ol><ol class="dchips" data-for="northwest" hidden><li><a href="#northwest-14"><span class="n">14</span><span class="t">Glen Affric и водопады</span></a></li><li><a href="#northwest-15"><span class="n">15</span><span class="t">Triple Buttress</span></a></li><li><a href="#northwest-16"><span class="n">16</span><span class="t">Пляжи и ущелье</span></a></li><li><a href="#northwest-17"><span class="n">17</span><span class="t">Stac Pollaidh и Achmelvich</span></a></li><li><a href="#northwest-18"><span class="n">18</span><span class="t">Quinag и обратно</span></a></li></ol><ol class="dchips" data-for="grand" hidden><li><a href="#grand-14"><span class="n">14</span><span class="t">Glen Affric</span></a></li><li><a href="#grand-15"><span class="n">15</span><span class="t">Triple Buttress</span></a></li><li><a href="#grand-16"><span class="n">16</span><span class="t">Stac Pollaidh</span></a></li><li><a href="#grand-17"><span class="n">17</span><span class="t">Побережье → Aviemore</span></a></li><li><a href="#grand-18"><span class="n">18</span><span class="t">Sgòr Gaoith</span></a></li></ol></div></div></nav>
 
 <main class="wrap">
   
-<section class="variant" id="radial" role="tabpanel" aria-labelledby="tab-radial" hidden>
+<section class="variant" id="radial" role="tabpanel" aria-labelledby="tab-radial">
   <div class="overview">
     <div class="ov-map">
       <div class="map" data-map><svg viewBox="0 0 1000 684" role="img" aria-label="Карта варианта «База в Inverness»" class="map-svg">
@@ -571,7 +571,7 @@ dl, dd { margin: 0; }
   </div>
 </section>
 </section>
-<section class="variant" id="northwest" role="tabpanel" aria-labelledby="tab-northwest">
+<section class="variant" id="northwest" role="tabpanel" aria-labelledby="tab-northwest" hidden>
   <div class="overview">
     <div class="ov-map">
       <div class="map" data-map><svg viewBox="0 0 1000 1065" role="img" aria-label="Карта варианта «Torridon + Assynt»" class="map-svg">
